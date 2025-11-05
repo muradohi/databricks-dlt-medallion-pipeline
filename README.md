@@ -17,7 +17,15 @@ Even though the dataset is small (created using SQL inserts), it simulates:
 
 ---
 
+## 🏗️ DLT Pipeline Graph 
 
+This is the actual **lineage graph generated automatically** by Delta Live Tables in Databricks.  
+It shows how raw data flows through Bronze → Silver → Gold layers.
+<p align="center">
+  <img src="./pipeline_graph.png" alt="DLT Pipeline Graph" width="900"/>
+</p>
+
+---
 
 ## ✅ What I Built
 
